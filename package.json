@@ -1,0 +1,37 @@
+{
+  "name": "hapi-kong",
+  "description": "A plugin to expose KONG's node SDK",
+  "version": "1.0.0",
+  "author": "SEE AUTHORS IN AUTHORS.md",
+  "bugs": "https://github.com/FlexShopper/hapi-kong/issues",
+  "dependencies": {
+    "kong-node": "@flexshopper/kong-node"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "debug": "^2.2.0",
+    "eslint": "^1.10.3",
+    "eslint-config-flexshopper": "@flexshopper/eslint-config",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-notify": "^2.2.0",
+    "hapi": "^10.0.0",
+    "lab": "^5.17.0"
+  },
+  "homepage": "https://github.com/FlexShopper/hapi-kong",
+  "keywords": [
+    "hapi",
+    "kong",
+    "plugin",
+    "skd"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "''"
+  },
+  "scripts": {
+    "test": "lab -t 100 -C -S -v -a code"
+  }
+}
